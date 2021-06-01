@@ -1,0 +1,183 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+h1,
+h2 {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  /* Difference between two lines containing words */
+  line-height: 1.5; 
+  font-weight: 900;
+}
+h1 {
+  font-size: 55px;
+}
+h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 900;
+}
+/* For every paragraph tag in our project  */
+p {
+  color: #8f8f8f;
+}
+/* For Logo or icon presents in whole project  */
+.fas {
+  font-size: 50px;
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+.fas:hover {
+  color: #ff4c68;
+}
+.fab {
+  font-size: 24px;
+  /* color:#ef8172; */
+  margin-right: 10px;
+}
+.fab:hover {
+  color: #ff4c68;
+}
+/* TITLE  */
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+  }
+  /* To give padding in title section  */
+
+.container-fluid {
+    padding: 3% 15% 10% 15%;
+  }
+  
+.row {
+    /* To give padding in dog image and text  */
+  padding: 50px 0px 0px;  
+}
+/* FOr Tindog Logo */
+.logo {                         
+  margin-left: 10px; 
+  font-size: 45px;
+}
+/* For Download Buttons in Title section  */
+.btn {
+  margin: 10px 30px 10px 0px;
+  border-radius: 10px;
+}
+/* In navigation bar to manage properties of download pricing section  */
+.nav-item {
+  font-size: 20px;
+  margin: 25px;
+  font-family: "Montserrat-light";
+}
+/* FOr DOg image with iphone in title section  */
+.title_image {
+  width: 22%;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 22%;
+}
+
+/* To make Our Title section responsive  */
+@media (max-width: 991px) {
+  .title_image {
+    position: static;
+    transform: rotate(0deg);
+    height: 100%;
+    width: 40%;
+  }
+  .row {
+    text-align: center;
+  }
+}
+
+/* FEATURES SECTION  */
+
+
+.featured_row {
+  padding: 7% 15%;
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.featured_box {
+  padding: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* TESTIMONIALS */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 100%;
+  margin-right: 20px;
+  width: 200px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* PRESS  */
+
+#press {
+  /* margin-bottom: 150px; */
+  padding: 7% 15%;
+  padding-top: 0%;
+  background-color: #ef8172;
+  text-align: center;
+}
+.press_logo {
+  width: 200px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+/* Pricing  */
+#pricing {
+  text-align: center;
+  padding: 7% 15%;
+}
+.card {
+  /* text-align: center; */
+  margin: 18px;
+}
+
+/* Call to action */
+#cta {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.cta_head {
+  padding: 0px 160px 0px;
+  margin-bottom: 60px;
+  color: #fff;
+}
+
+/* footer  */
+footer {
+  padding: 4% 15%;
+  text-align: center;
+  font-size: 15px;
+}
+.fu {
+  margin-right: 30px;
+}
+.env{
+  color: black;
+}
